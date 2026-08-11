@@ -1,0 +1,108 @@
+body{
+    background: linear-gradient(#82C282, #6C5E8F) no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Copperplate', sans-serif;
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.listen, .live-shows{
+    background-color: #6C5E8F;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(255, 247, 247, 0.5);
+    padding: 20px 40px;
+    display: block inline;
+    margin: auto;
+    color: #fff;
+    font-family: 'Copperplate', sans-serif;
+    font-size: 1.25rem;
+
+
+}
+
+.listen:hover, .live-shows:hover{
+    background-color: #82C282;
+    box-shadow: 0 12px 16px #6C5E8F;
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.gallery img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 20px 20px rgba(248, 242, 242, 0.2);
+}
+
+.gallery img:hover{
+    width: 260px;
+    height: 340px;
+    z-index: 10;
+    transition: all 0.3s ease;
+    box-shadow: 40px 40px 40px rgba(248, 246, 246, 0.3);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+    position: absolute;
+    top: 20px;
+}
+.fa{
+    padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+    color: #fff;
+    border-radius: 50%;}
+    
+
+p, section{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Copperplate', sans-serif;
+   
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+    color: #fff;
+    font-family: 'Copperplate', sans-serif;
+    font-size: 1rem;
+}
