@@ -67,24 +67,21 @@ h1{
     box-shadow: 40px 40px 40px rgba(248, 246, 246, 0.3);
 }
 
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 4rem;
+.social-icons {
     position: absolute;
-    top: 20px;
+    top: 100px;
+    left: 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
-.fa{
-    padding: 20px;
-   font-size: 30px;
-   width: 50px;
-   text-align: center;
-   text-decoration: none;
-    color: #fff;
-    border-radius: 50%;}
-    
+
+.social-icons a {
+    color: white;
+    font-size: clamp(22px, 6vw, 40px);
+    text-decoration: none;
+}
 
 p, section{
     margin: 0;
@@ -106,3 +103,4 @@ footer{
     font-family: 'Copperplate', sans-serif;
     font-size: 1rem;
 }
+
